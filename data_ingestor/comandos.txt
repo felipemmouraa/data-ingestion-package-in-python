@@ -1,0 +1,13 @@
+poetry run uvicorn app.main:app --reload
+poetry run pytest
+
+
+
+esse comando abaixo eh para fazer o venv no repositorio do projeto ajudando o vscode a reconhecer o ambiente virtual e seu interpretador
+poetry config virtualenvs.in-project true
+poetry env remove python
+poetry install
+
+
+comando para o terminal reconhecer o poetry
+$env:Path += ";C:\Users\Inteli\AppData\Roaming\Python\Scripts"

@@ -1,0 +1,61 @@
+.vscode
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Poetry virtual environment
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and database
+*.log
+*.sqlite3
+*.db
+
+# VS Code and IDE settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# macOS & Linux files
+.DS_Store
+*.swp
+*.swo
+
+# Pipenv & Poetry files
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+
+# Testing & Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Docker
+.dockerignore
+
+# Ignore env files
+.env
+.envrc
+*.ini
+*.toml
