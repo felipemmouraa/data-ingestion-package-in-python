@@ -16,7 +16,7 @@ class RawDataType2(BaseModel):
 
 class RawDataType3(BaseModel):
     ID: str
-    DATA_DETECCAO: str = Field(..., alias="DATA.DETECCAO")  # if alias is needed
+    DATA_DETECCAO: str = Field(..., alias="DATA.DETECCAO")  
     PONTO: str
     LOC_ID: int
     LOC: str
